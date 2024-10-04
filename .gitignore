@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# Build files
+build/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Cache files
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Testing
+coverage/
+
+# React specific
+.eslintcache
