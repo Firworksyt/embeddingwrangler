@@ -35,6 +35,9 @@ Embedding Wrangler is a web application that allows users to explore and visuali
 
 3. Access the application at `http://localhost:3000`
 
+> [!NOTE]  
+> The backend takes a few moments to fully start servicing requests so if you access the front end too quickly you may initially see failed responses.
+
 ## Usage
 
 1. Enter words in the input fields to compare them, find nearest neighbors, or perform word arithmetic.
