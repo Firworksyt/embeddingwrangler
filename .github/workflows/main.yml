@@ -31,7 +31,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3  # Update to v3
     - name: Use Node.js
-      uses: actions/setup-node@v3  # Update to v3
+      uses: actions/setup-node@v4  # Update to v3
       with:
         node-version: '14'
     - name: Install dependencies
